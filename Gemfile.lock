@@ -168,7 +168,7 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     json (2.7.2)
-    kamal (1.6.0)
+    kamal (1.7.0)
       activesupport (>= 7.0)
       base64 (~> 0.2)
       bcrypt_pbkdf (~> 1.0)
@@ -178,6 +178,7 @@ GEM
       net-ssh (~> 7.0)
       sshkit (>= 1.22.2, < 2.0)
       thor (~> 1.2)
+      x25519 (~> 1.0, >= 1.0.10)
       zeitwerk (~> 2.5)
     language_server-protocol (3.17.0.3)
     logger (1.6.0)
@@ -345,7 +346,8 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.15)
+    x25519 (1.0.10)
+    zeitwerk (2.6.16)
 
 PLATFORMS
   aarch64-linux
