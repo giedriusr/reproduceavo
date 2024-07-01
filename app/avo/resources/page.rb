@@ -9,10 +9,13 @@ class Avo::Resources::Page < Avo::BaseResource
     field :title, as: :text
     field :slug, as: :text
     field :content, as: :text
+    field :labels, as: :tags, hide_on: :show, delimiters: [";"], placeholder: "Comma separated list"
   end
 
   def show_fields
     fields
+
+    field :labels, as: :tags
 
     field :page_url, as: :text do
       url_params = {slug: resource.record.slug, id: resource.record}
