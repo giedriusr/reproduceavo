@@ -54,4 +54,4 @@ group :development do
 end
 
 
-gem "avo", "~> 3.9"
+gem "avo", "~> 3.10"
